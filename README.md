@@ -2,6 +2,7 @@
 HtmlDocument is simple php class for html creation without using any meta tag
 
 <h2>Examples:</h2>
+<pre>
 <code>
 <?php
 require dirname (__FILE__) . "/Doc.php";
@@ -11,3 +12,5 @@ $doc->createElement("div", array("id"=>1), " hello world");
 //print all the html
 echo $doc->initHtml();
 ?>
+</code>
+</pre>
